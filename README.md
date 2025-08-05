@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎧 My Podcast Website
 
-## Getting Started
+Welcome to the source code and documentation for **Aircall | Podcast** — a modern, responsive website that showcases featured podcasts, allows users to explore content, and subscribe via multiple platforms.
 
-First, run the development server:
+## 🌐 Live Site
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can access the live version of the website here:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 [https://your-website-url.com](https://your-website-url.com)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Features
 
-## Learn More
+- ✨ **Hero Section**: Eye-catching hero with layered podcast imagery and dynamic content.
+- 🎙️ **Podcast Image Cluster**: A custom component displaying layered podcast images with responsive behavior.
+- 📱 **Mobile Friendly**: Fully responsive across screen sizes with optimized layout.
+- 🔍 **Search & Navigation**: Clean header with future support for dropdowns and filtering.
+- 📦 **Subscriptions**: Icons and links to various podcast subscription services.
+- 🌈 **Modern Styling**: Styled with Tailwind CSS for a consistent and clean UI.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Image Optimization**: `next/image` for responsive image loading and optimization
+- **CMS/Content**: Storyblok
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
