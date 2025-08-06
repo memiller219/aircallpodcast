@@ -1,4 +1,3 @@
-// app/podcast/page.js
 import { getStoryblokApi, StoryblokComponent } from "@storyblok/react";
 
 export default async function Podcast() {
