@@ -21,3 +21,101 @@ a {
 * {
   box-sizing: border-box;
 }
+/* /app/globals.css */
+
+:root {
+  /* Aircall Brand Colors */
+  --aircall-green: #00b388;
+  --aircall-blue: #345bc2;
+  --aircall-pink: #ff7b7b;
+
+  --aircall-grey-100: #f7f8fc;
+  --aircall-grey-200: #f1f3f8;
+  --aircall-grey-300: #9fadbc;
+  --aircall-grey-500: #5c6266;
+  --aircall-grey-900: #101820;
+
+  /* Semantic colors */
+  --border: hsl(210, 14%, 89%);
+  --input: hsl(210, 16%, 94%);
+  --ring: hsl(210, 14%, 86%);
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(222, 47%, 11%);
+
+  --primary: hsl(222.2, 47.4%, 11.2%);
+  --primary-foreground: hsl(210, 40%, 98%);
+
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(222.2, 47.4%, 11.2%);
+
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+
+  --muted: hsl(210, 40%, 96%);
+  --muted-foreground: hsl(215.4, 16.3%, 46.9%);
+
+  --accent: hsl(210, 40%, 96%);
+  --accent-foreground: hsl(222.2, 47.4%, 11.2%);
+
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(222.2, 47.4%, 11.2%);
+
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(222.2, 47.4%, 11.2%);
+
+  /* Sidebar theme */
+  --sidebar-background: hsl(210, 40%, 96%);
+  --sidebar-foreground: hsl(222.2, 47.4%, 11.2%);
+  --sidebar-primary: hsl(222.2, 47.4%, 11.2%);
+  --sidebar-primary-foreground: hsl(210, 40%, 98%);
+  --sidebar-accent: hsl(210, 40%, 96%);
+  --sidebar-accent-foreground: hsl(222.2, 47.4%, 11.2%);
+  --sidebar-border: hsl(210, 14%, 89%);
+  --sidebar-ring: hsl(210, 14%, 86%);
+
+  /* Border radius */
+  --radius: 0.5rem;
+}
+
+.bg-aircall-green {
+  background-color: var(--aircall-green);
+}
+.text-aircall-green {
+  color: var(--aircall-green);
+}
+
+.bg-aircall-grey-100 {
+  background-color: var(--aircall-grey-100);
+}
+.text-aircall-grey-500 {
+  color: var(--aircall-grey-500);
+}
+.text-aircall-grey-900 {
+  color: var(--aircall-grey-900);
+}
+
+/* Accordion Animations */
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+.animate-accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+.animate-accordion-up {
+  animation: accordion-up 0.2s ease-out;
+}

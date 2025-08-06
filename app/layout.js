@@ -1,5 +1,7 @@
-import { Geist, Geist_Mono } from "next/font/google";
+// app/layout.js
 import "./globals.css";
+import { Geist, Geist_Mono } from "next/font/google";
+import "@/lib/storyblok"; // Import once here
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
