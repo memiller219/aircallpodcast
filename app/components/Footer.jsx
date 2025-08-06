@@ -20,10 +20,10 @@ export default function Footer({ blok }) {
         <div className="max-w-[311px] mx-auto lg:max-w-[960px] xl:max-w-[1140px] lg:flex lg:justify-between">
           {columns.map((column, idx) => (
             <div key={idx} className="col-span-4 md:col-span-2">
-              <h4 className="font-semibold text-left text-aircall-grey-300 text-sm uppercase my-5">
+              <h4 className="font-semibold text-left text-gray-300 text-sm uppercase my-5">
                 {column.title}
               </h4>
-              <ul className="text-left text-aircall-grey-300 font-light space-y-2 text-sm border-b lg:border-none pb-6">
+              <ul className="text-left text-aircall-grey-300 font-light space-y-2 text-sm border-b border-gray-200 lg:border-none pb-6">
                 {column.links.map((link, i) => (
                   <li key={i}>
                     <a
@@ -39,7 +39,7 @@ export default function Footer({ blok }) {
           ))}
         </div>
 
-        <div className="border-t lg:justify-between justify-around border-aircall-grey-200 mt-16  max-w-[311px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto flex flex-wrap gap-4 md:flex-row items-center font-thin text-sm text-aircall-grey-300">
+        <div className="border-t lg:justify-between justify-around border-gray-200 mt-16 lg:pt-4 max-w-[311px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto flex flex-wrap gap-4 md:flex-row items-center font-thin text-sm text-gray-400">
           <div className="flex gap-4">
             &copy; Aircall
             <span className="flex gap-4 md:mt-0">

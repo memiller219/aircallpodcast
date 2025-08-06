@@ -13,7 +13,7 @@ export default function HeroSection({ blok }) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="relative lg:col-start-3 col-start-3 col-span-6 lg:h-[254px] lg:w-[254px] h-[168px] w-[168px] mx-auto bg-aircall-green rounded-xl overflow-hidden"
+          className="relative lg:col-start-5 col-start-3 col-span-6 lg:h-[254px] lg:w-[254px] h-[168px] w-[168px] mx-auto bg-aircall-green rounded-xl overflow-hidden"
         >
           <Image
             src={podcastImages[1]?.podcast_image?.filename}
@@ -50,7 +50,7 @@ export default function HeroSection({ blok }) {
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="col-start-8 z-10 row-start-5 lg:col-start-8 h-[131px] w-[131px] lg:h-[200px] lg:w-[200px] mx-auto bg-aircall-green rounded-xl overflow-hidden -bottom-[60px] right-[-85px]"
+          className="col-start-8 z-10 row-start-5 lg:col-start-15 h-[131px] w-[131px] lg:h-[200px] lg:w-[200px] mx-auto bg-aircall-green rounded-xl overflow-hidden -bottom-[60px] right-[-85px]"
           style={{ gridRowStart: "16" }}
         >
           <Image
